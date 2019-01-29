@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StartEndpoint {
 	
-	@GetMapping("tdd")
+	@GetMapping("api/tdd")
 	public String tdd() {
 		return "hier start rest";
 	}
