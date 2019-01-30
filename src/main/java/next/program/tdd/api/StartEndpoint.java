@@ -8,7 +8,7 @@ public class StartEndpoint {
 	
 	@GetMapping("api/tdd")
 	public String tdd() {
-		return "Hier2 hier start rest";
+		return "Hier3 hier start rest";
 	}
 
 }
